@@ -37,7 +37,7 @@
   transform: scale(1.1) rotate(5deg);
 }
 
-/* Positions for 8 cards */
+/* Circle positions for desktop layout */
 .service-card:nth-child(1) {
   top: 50%; left: 50%;
   width: 110px; height: 110px;
@@ -94,26 +94,31 @@
   }
 }
 
-/* Responsive behavior */
+/* ==================== Responsive layout ==================== */
 @media (max-width: 768px) {
   .services-list {
     position: static;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 1rem;
     padding: 1rem 0;
+    justify-items: center;
   }
 
   .service-card {
     position: relative;
     top: auto;
     left: auto;
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     opacity: 1;
     transform: scale(1);
     animation: none;
+    border-radius: 50%;
+  }
+
+  .service-card:hover {
+    transform: scale(1.1); /* only slight scaling on hover */
   }
 }
