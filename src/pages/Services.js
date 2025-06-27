@@ -4,7 +4,7 @@ function Services() {
   const services = [
     "GST Registration",
     "Income Tax Filing",
-    "GHMC Registration",
+    "Trade License",
     "GST Registration",
     "Labour License",
     "PAN Application",
