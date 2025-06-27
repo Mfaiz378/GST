@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div>GST & Services</div>
+      <div>GST Returns Services</div>
       <div>
         <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
