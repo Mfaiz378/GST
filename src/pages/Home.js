@@ -5,12 +5,12 @@ function Home() {
     <div className="home-page">
      <div className="hero">
   <h1>Welcome to GST Return Filing & GST Services   </h1>
-  <p>Your one-stop shop for GST AND REGISTRATIONS QUERIES.</p>
-  <a href="/contact" className="cta-button">Get Started</a>
+  <p>Your one-stop shop for GST RETURNS AND REGISTRATIONS.</p>
+  <a href="/services" className="cta-button">Get Started</a>
 </div>
 <div className="about">
   <h2>About Us</h2>
-  <p>We provide taxation services and regional services.</p>
+  <p>We provide Taxation Services and Registration Services.</p>
   
 </div>
 <footer className="footer">
